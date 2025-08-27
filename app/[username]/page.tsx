@@ -48,7 +48,7 @@ export default function ProfilePage() {
 
                     {/* vCard button */}
                     <Button variant="outline" size="lg" className="w-full rounded-lg bg-transparent" asChild>
-                        <Link href={profile.vcardUrl} download className="text-sm text-white">Share Contact</Link>
+                        <Link href={profile.vcardUrl} className="text-sm text-white">Share Contact</Link>
                     </Button>
                 </div>
 
