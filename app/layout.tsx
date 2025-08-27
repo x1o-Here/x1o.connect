@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import MobileOnly from "@/components/layout/mobile-only";
+import ActionBar from "@/components/layout/action-bar";
+import TitleBar from "@/components/layout/title-bar";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +29,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#f8f8ff] antialiased`}
       >
-        {children}
+        <MobileOnly>
+          <div className="w-full h-screen flex flex-col bg-[radial-gradient(circle,rgba(0,0,0,0.9)_0%,rgba(0,0,0,1)_100%)]">
+            <TitleBar />
+            <main className="flex-1 overflow-y-auto">{children}</main>
+            {/* <ActionBar /> */}
+            <Toaster />
+          </div>
+        </MobileOnly>
       </body>
     </html>
   );

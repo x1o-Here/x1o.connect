@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Alwis;Muthula;;;
+FN:Muthula Alwis
+ORG:x1o
+TITLE:CEO
+TEL;TYPE=home,voice:+94717428128
+EMAIL;TYPE=home:muthula.alwis@example.com
+END:VCARD
