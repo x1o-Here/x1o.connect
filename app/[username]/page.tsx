@@ -7,7 +7,7 @@ import * as profile from "@/data/muthula-alwis.json"
 export default function ProfilePage() {
     return (
         <div className="w-full h-full flex flex-col items-center justify-center">
-            <div className="relative w-full h-1/3 bg-red-300">
+            <div className="relative w-full h-1/3">
                 <Image
                     src="/silver_surfer.jpeg"
                     alt="Profile Banner"
@@ -21,7 +21,6 @@ export default function ProfilePage() {
                         alt="Profile Picture"
                         width={112}
                         height={112}
-                        className=""
                     />
                 </div>
             </div>

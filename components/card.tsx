@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 
 export default function Card() {
     const [showQR, setShowQR] = useState<boolean>(false);
-    const url = "https://x1o.connect/muthula-alwis";
+    const url = "https://x1o-connect.vercel.app/muthula-alwis";
 
     const handleWebShare = async () => {
         if (navigator.share) {
