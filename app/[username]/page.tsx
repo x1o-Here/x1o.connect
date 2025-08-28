@@ -47,8 +47,13 @@ export default function ProfilePage() {
                     </div>
 
                     {/* vCard button */}
-                    <Button variant="outline" size="lg" className="w-full rounded-lg bg-transparent" asChild>
-                        <Link href={profile.vcardUrl} className="text-sm text-white">Share Contact</Link>
+                    <Button 
+                        variant="outline" 
+                        size="lg" 
+                        className="w-full rounded-lg bg-transparent text-sm text-white"
+                        onClick={() => (window.location.href = '/api/contact')}
+                    >
+                        Share Contact
                     </Button>
                 </div>
 
