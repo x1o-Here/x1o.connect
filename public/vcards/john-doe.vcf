@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John;;;
+FN:John Doe
+ORG:x1o
+TITLE:CEO
+TEL;TYPE=home,voice:+94717828198
+EMAIL;TYPE=home:muthula.alwis@gmail.com
+END:VCARD
