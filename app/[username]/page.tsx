@@ -80,7 +80,7 @@ export default function ProfilePage() {
                                 className="text-sm text-white"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >WhatsApp Me</Link>
+                            >WhatsApp</Link>
                         </Button>
 
                         {/* Cal.com */}
@@ -90,7 +90,7 @@ export default function ProfilePage() {
                                 className="text-sm text-white"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >Cal.com</Link>
+                            >Book a Quick Chat</Link>
                         </Button>
                     </div>
                 </div>
